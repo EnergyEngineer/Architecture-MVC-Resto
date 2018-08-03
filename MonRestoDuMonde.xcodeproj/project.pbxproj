@@ -18,6 +18,8 @@
 		47D1112A211477F000325670 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D11129211477F000325670 /* Constantes.swift */; };
 		47D1112C21147A9F00325670 /* MonNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1112B21147A9F00325670 /* MonNavigationController.swift */; };
 		47D1112E211482A000325670 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1112D211482A000325670 /* MenuCell.swift */; };
+		47D11130211488AC00325670 /* Plats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1112F211488AC00325670 /* Plats.swift */; };
+		47D11132211488EE00325670 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D11131211488EE00325670 /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		47D11129211477F000325670 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		47D1112B21147A9F00325670 /* MonNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNavigationController.swift; sourceTree = "<group>"; };
 		47D1112D211482A000325670 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		47D1112F211488AC00325670 /* Plats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plats.swift; sourceTree = "<group>"; };
+		47D11131211488EE00325670 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		47D1111F2114740D00325670 /* Modèle */ = {
 			isa = PBXGroup;
 			children = (
+				47D1112F211488AC00325670 /* Plats.swift */,
+				47D11131211488EE00325670 /* Enums.swift */,
 			);
 			name = "Modèle";
 			path = "Modèle";
@@ -188,10 +194,12 @@
 			files = (
 				47D111272114779500325670 /* MonTabBar.swift in Sources */,
 				47D111252114750400325670 /* ALaCarteController.swift in Sources */,
+				47D11132211488EE00325670 /* Enums.swift in Sources */,
 				47D1111021146D1900325670 /* ViewController.swift in Sources */,
 				47D11123211474A200325670 /* MenuController.swift in Sources */,
 				47D1110E21146D1900325670 /* AppDelegate.swift in Sources */,
 				47D1112A211477F000325670 /* Constantes.swift in Sources */,
+				47D11130211488AC00325670 /* Plats.swift in Sources */,
 				47D1112E211482A000325670 /* MenuCell.swift in Sources */,
 				47D1112C21147A9F00325670 /* MonNavigationController.swift in Sources */,
 			);
