@@ -10,26 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="fTR-fH-TER">
-            <objects>
-                <viewController id="0Ko-vI-zbE" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gcU-Oy-Mwg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Brg-wZ-a2I"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="R1j-P5-6lt"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AxC-53-Ffl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1716" y="499.70014992503752"/>
-        </scene>
-        <!--View Controller-->
+        <!--Menu Controller-->
         <scene sceneID="Qwc-y1-QbM">
             <objects>
-                <viewController id="gbc-I4-sKM" sceneMemberID="viewController">
+                <viewController id="gbc-I4-sKM" customClass="MenuController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U4j-Ls-Czx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,6 +26,35 @@
             </objects>
             <point key="canvasLocation" x="1716" y="-166.8665667166417"/>
         </scene>
+        <!--La Carte Controller-->
+        <scene sceneID="ZIk-x6-NLX">
+            <objects>
+                <tableViewController id="PRf-jf-kGN" customClass="ALaCarteController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="RBm-wd-uci">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="uy5-nb-N0T">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uy5-nb-N0T" id="FPc-Rq-zfM">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="PRf-jf-kGN" id="btH-0W-jYo"/>
+                            <outlet property="delegate" destination="PRf-jf-kGN" id="YuM-Y5-XK6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="3Sg-2A-GQ2"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5wf-pU-Ueh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1716" y="565"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="SiH-Bw-koC">
             <objects>
@@ -53,18 +66,18 @@
                     </tabBar>
                     <connections>
                         <segue destination="HWW-Ow-eNx" kind="relationship" relationship="viewControllers" id="JJ2-QZ-zrS"/>
-                        <segue destination="DWP-nr-WUn" kind="relationship" relationship="viewControllers" id="zm0-Gb-z5S"/>
+                        <segue destination="9XA-up-dOT" kind="relationship" relationship="viewControllers" id="eiv-3S-pVg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ItQ-uz-oVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-170" y="169"/>
         </scene>
-        <!--Item 1-->
+        <!--Les Menus-->
         <scene sceneID="McK-zI-sJA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HWW-Ow-eNx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="H6t-Wf-ih4"/>
+                    <tabBarItem key="tabBarItem" title="Les Menus" image="icons8-menu-de-restaurant-25" id="H6t-Wf-ih4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6B0-zF-kuE">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -79,24 +92,28 @@
             </objects>
             <point key="canvasLocation" x="776.79999999999995" y="-166.8665667166417"/>
         </scene>
-        <!--Item 2-->
-        <scene sceneID="qn6-Ex-tst">
+        <!--A la carte-->
+        <scene sceneID="Vw6-2e-4V1">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DWP-nr-WUn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="o63-Bc-Gx8"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9XA-up-dOT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="A la carte" image="icons8-couverts-25" id="Zl5-rb-UrI"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L6h-99-iB0">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZRB-Vc-LSg">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="0Ko-vI-zbE" kind="relationship" relationship="rootViewController" id="SeY-Xp-mza"/>
+                        <segue destination="PRf-jf-kGN" kind="relationship" relationship="rootViewController" id="aNe-63-MFr"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UDs-Nl-4Nl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w3C-Mh-T6b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="776.79999999999995" y="499.70014992503752"/>
+            <point key="canvasLocation" x="777" y="565"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-couverts-25" width="25" height="25"/>
+        <image name="icons8-menu-de-restaurant-25" width="25" height="25"/>
+    </resources>
 </document>
