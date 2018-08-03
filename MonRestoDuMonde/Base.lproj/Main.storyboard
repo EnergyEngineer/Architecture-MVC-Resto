@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="1716" y="565"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Mon Tab Bar-->
         <scene sceneID="SiH-Bw-koC">
             <objects>
-                <tabBarController id="9tw-3f-HzJ" sceneMemberID="viewController">
+                <tabBarController id="9tw-3f-HzJ" customClass="MonTabBar" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sfJ-ob-6S9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
