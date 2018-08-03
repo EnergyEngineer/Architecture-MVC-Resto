@@ -20,6 +20,8 @@
 		47D1112E211482A000325670 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1112D211482A000325670 /* MenuCell.swift */; };
 		47D11130211488AC00325670 /* Plats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1112F211488AC00325670 /* Plats.swift */; };
 		47D11132211488EE00325670 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D11131211488EE00325670 /* Enums.swift */; };
+		47D1113421148AA200325670 /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1113321148AA200325670 /* Menus.swift */; };
+		47D1113621148B8300325670 /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1113521148B8300325670 /* LesPlats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		47D1112D211482A000325670 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		47D1112F211488AC00325670 /* Plats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plats.swift; sourceTree = "<group>"; };
 		47D11131211488EE00325670 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		47D1113321148AA200325670 /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
+		47D1113521148B8300325670 /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 			children = (
 				47D1112F211488AC00325670 /* Plats.swift */,
 				47D11131211488EE00325670 /* Enums.swift */,
+				47D1113321148AA200325670 /* Menus.swift */,
+				47D1113521148B8300325670 /* LesPlats.swift */,
 			);
 			name = "Modèle";
 			path = "Modèle";
@@ -192,6 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D1113421148AA200325670 /* Menus.swift in Sources */,
+				47D1113621148B8300325670 /* LesPlats.swift in Sources */,
 				47D111272114779500325670 /* MonTabBar.swift in Sources */,
 				47D111252114750400325670 /* ALaCarteController.swift in Sources */,
 				47D11132211488EE00325670 /* Enums.swift in Sources */,
