@@ -25,6 +25,7 @@
 		47D11138211493FA00325670 /* Degrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D11137211493FA00325670 /* Degrade.swift */; };
 		47D1113A211498BB00325670 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D11139211498BB00325670 /* PlatCell.swift */; };
 		47D1113C21149BA700325670 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1113B21149BA700325670 /* ALaCarte.swift */; };
+		47D1113E2114A9BA00325670 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1113D2114A9BA00325670 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		47D11137211493FA00325670 /* Degrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degrade.swift; sourceTree = "<group>"; };
 		47D11139211498BB00325670 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
 		47D1113B21149BA700325670 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
+		47D1113D2114A9BA00325670 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				47D111242114750400325670 /* ALaCarteController.swift */,
 				47D111262114779500325670 /* MonTabBar.swift */,
 				47D1112B21147A9F00325670 /* MonNavigationController.swift */,
+				47D1113D2114A9BA00325670 /* DetailController.swift */,
 			);
 			path = Controlleur;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				47D11132211488EE00325670 /* Enums.swift in Sources */,
 				47D11138211493FA00325670 /* Degrade.swift in Sources */,
 				47D1111021146D1900325670 /* ViewController.swift in Sources */,
+				47D1113E2114A9BA00325670 /* DetailController.swift in Sources */,
 				47D11123211474A200325670 /* MenuController.swift in Sources */,
 				47D1110E21146D1900325670 /* AppDelegate.swift in Sources */,
 				47D1112A211477F000325670 /* Constantes.swift in Sources */,

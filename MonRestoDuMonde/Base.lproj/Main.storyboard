@@ -95,11 +95,41 @@
                     <navigationItem key="navigationItem" id="7Fo-Xh-iZq"/>
                     <connections>
                         <outlet property="collectionView" destination="nQF-Tk-3FX" id="p8N-Wz-Vqk"/>
+                        <segue destination="QEv-Vd-ZFo" kind="show" identifier="VersDetail" id="uId-0e-ILJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hj6-ih-fSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1716" y="-166.8665667166417"/>
+        </scene>
+        <!--Detail Controller-->
+        <scene sceneID="ndW-4l-obT">
+            <objects>
+                <viewController id="QEv-Vd-ZFo" customClass="DetailController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WsN-gb-9Y0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nl1-06-i9L">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nl1-06-i9L" firstAttribute="bottom" secondItem="PoX-bR-b9x" secondAttribute="bottom" id="G5s-Tg-0Uv"/>
+                            <constraint firstItem="nl1-06-i9L" firstAttribute="top" secondItem="PoX-bR-b9x" secondAttribute="top" id="JjF-rb-Lh0"/>
+                            <constraint firstItem="nl1-06-i9L" firstAttribute="leading" secondItem="PoX-bR-b9x" secondAttribute="leading" id="WBe-WW-7aY"/>
+                            <constraint firstItem="nl1-06-i9L" firstAttribute="trailing" secondItem="PoX-bR-b9x" secondAttribute="trailing" id="iRh-K5-IeC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PoX-bR-b9x"/>
+                    </view>
+                    <connections>
+                        <outlet property="scroll" destination="nl1-06-i9L" id="3JQ-vs-mP3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NCe-Qe-Iy2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2413.5999999999999" y="-167.76611694152925"/>
         </scene>
         <!--La Carte Controller-->
         <scene sceneID="ZIk-x6-NLX">
