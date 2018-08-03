@@ -22,7 +22,7 @@ class ALaCarte {
     
     init(type: Type){
         self._type = type
-        self._plats = [Plats]()
+        self._plats = LesPlats.obtenir.aLaCarte(type: self._type)
     }
     
 }

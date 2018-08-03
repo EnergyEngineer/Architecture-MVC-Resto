@@ -9,6 +9,7 @@
 import UIKit
 
 class LesPlats {
+    
     static let obtenir = LesPlats()
     
     func lesMenus() -> [Menu] {
@@ -24,7 +25,103 @@ class LesPlats {
         
         menus.append(contentsOf: [it, jap, chi, usa, mex, esp, sui])
         return menus
+    }
+    
+    
+    func carteComplete() -> [ALaCarte] {
+        let entree = ALaCarte(type: .entree)
+        let plat = ALaCarte(type: .platPrincipal)
+        let dessert = ALaCarte(type: .dessert)
+    return [entree, plat, dessert]
+    }
+    
+    
+    
+    
+    func aLaCarte(type: Type)-> [Plats]{
+        var plats = [Plats]()
         
+        for plat in tousLesPlats(){
+            if plat.type == type {
+                plats.append(plat)
+            }
+            
+        }
+        
+        return plats
+        
+    }
+    
+    
+    
+    func ajouterPlatAuMenu(pays: String) -> [Plats]{
+        var plats = [Plats]()
+        
+        for plat in tousLesPlats(){
+            if plat.pays == pays {
+                plats.append(plat)
+            }
+        }
+        return plats
+    }
+    
+    
+    
+    
+    
+    func tousLesPlats() -> [Plats]{
+        var lesPlats = [Plats]()
+        
+        let tomate = Plats(type: .entree, pays: ITALIE, desc: "Salade de tomates et Mozzarella", image: #imageLiteral(resourceName: "mozza"))
+        lesPlats.append(tomate)
+        let pizza = Plats(type: .platPrincipal, pays: ITALIE, desc: "Pizza Royale (jambon, fromage et champignons)", image: #imageLiteral(resourceName: "pizza"))
+        lesPlats.append(pizza)
+        let tiramisu = Plats(type: .dessert, pays: ITALIE, desc: "Le fameux Tiramisu au café, un régal pour les papilles", image: #imageLiteral(resourceName: "tiramisu"))
+        lesPlats.append(tiramisu)
+        
+        let nuggets = Plats(type: .entree, pays: USA, desc: "Nuggets de poulet", image: #imageLiteral(resourceName: "nuggets"))
+        lesPlats.append(nuggets)
+        let burg = Plats(type: .platPrincipal, pays: USA, desc: "Cheeseburger avec viande 100% charolaise", image: #imageLiteral(resourceName: "burger"))
+        lesPlats.append(burg)
+        let sundae = Plats(type: .dessert, pays: USA, desc: "Sundae nappage chocolat et éclat de noix de pécan", image: #imageLiteral(resourceName: "sundae"))
+        lesPlats.append(sundae)
+        
+        let nems = Plats(type: .entree, pays: CHINE, desc: "4 nems frits au poulet", image: #imageLiteral(resourceName: "nem"))
+        lesPlats.append(nems)
+        let crevette = Plats(type: .platPrincipal, pays: CHINE, desc: "Crevettes sauce aigre douce, servie ave du riz cantonais", image: #imageLiteral(resourceName: "crevette aigre doux"))
+        lesPlats.append(crevette)
+        let litchi = Plats(type: .dessert, pays: CHINE, desc: "Cheesecake au litchi et citron yuzu", image: #imageLiteral(resourceName: "cheesecake citon litchi"))
+        lesPlats.append(litchi)
+        
+        let gaz = Plats(type: .entree, pays: ESPAGNE, desc: "Gazpacho: la soupe froide qui vient d'Andalousie", image: #imageLiteral(resourceName: "gazpacho"))
+        lesPlats.append(gaz)
+        let paellas = Plats(type: .platPrincipal, pays: ESPAGNE, desc: "La véritable paêlla valencianne", image: #imageLiteral(resourceName: "paella"))
+        lesPlats.append(paellas)
+        let churro = Plats(type: .dessert, pays: ESPAGNE, desc: "Churros et crème de framboise", image: #imageLiteral(resourceName: "Churros et creme de framboise"))
+        lesPlats.append(churro)
+        
+        let sushi = Plats(type: .entree, pays: JAPON, desc: "Plateau de sushis variés (8 pièces)", image: #imageLiteral(resourceName: "sushis"))
+        lesPlats.append(sushi)
+        let boeuf = Plats(type: .platPrincipal, pays: JAPON, desc: "Boeuf Teryiaki", image: #imageLiteral(resourceName: "teriyaki"))
+        lesPlats.append(boeuf)
+        let glace = Plats(type: .dessert, pays: JAPON, desc: "Glace au thé vert et Sésame", image: #imageLiteral(resourceName: "glace thé vert"))
+        lesPlats.append(glace)
+        
+        let nacho = Plats(type: .entree, pays: MEXIQUE, desc: "Plat de nachos dorés au fromage fondu", image: #imageLiteral(resourceName: "nachos"))
+        lesPlats.append(nacho)
+        let fajitas = Plats(type: .platPrincipal, pays: MEXIQUE, desc: "Fajitas boeuf ou poulet", image: #imageLiteral(resourceName: "fajitas"))
+        lesPlats.append(fajitas)
+        let sop = Plats(type: .dessert, pays: MEXIQUE, desc: "Sopapilla, un amour de beignet tout droit venu du Yucatan", image: #imageLiteral(resourceName: "sopapilla"))
+        lesPlats.append(sop)
+        
+        let char = Plats(type: .entree, pays: SUISSE, desc: "Plateau de charcuterie suisse", image: #imageLiteral(resourceName: "charcuterie"))
+        lesPlats.append(char)
+        let fond = Plats(type: .platPrincipal, pays: SUISSE, desc: "Fondue au fromage", image: #imageLiteral(resourceName: "fondue"))
+        lesPlats.append(fond)
+        let gateau = Plats(type: .dessert, pays: SUISSE, desc: "Gateau au véritable chocolat Suisse", image: #imageLiteral(resourceName: "geateau au chocolat suisse"))
+        
+        
+        return lesPlats
     }
     
 }
