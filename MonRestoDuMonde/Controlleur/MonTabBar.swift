@@ -8,6 +8,8 @@
 
 import UIKit
 
+// Propriétés de la TabBar
+
 class MonTabBar: UITabBarController {
 
     override func viewDidLoad() {

@@ -16,6 +16,7 @@
 		47D111252114750400325670 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D111242114750400325670 /* ALaCarteController.swift */; };
 		47D111272114779500325670 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D111262114779500325670 /* MonTabBar.swift */; };
 		47D1112A211477F000325670 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D11129211477F000325670 /* Constantes.swift */; };
+		47D1112C21147A9F00325670 /* MonNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1112B21147A9F00325670 /* MonNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		47D111242114750400325670 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 		47D111262114779500325670 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		47D11129211477F000325670 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		47D1112B21147A9F00325670 /* MonNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,10 @@
 		47D1110C21146D1900325670 /* MonRestoDuMonde */ = {
 			isa = PBXGroup;
 			children = (
-				47D11128211477CF00325670 /* Utilitaire */,
 				47D1111F2114740D00325670 /* Modèle */,
 				47D111202114743100325670 /* Vue */,
 				47D111212114743B00325670 /* Controlleur */,
+				47D11128211477CF00325670 /* Utilitaire */,
 				47D1110D21146D1900325670 /* AppDelegate.swift */,
 				47D1110F21146D1900325670 /* ViewController.swift */,
 				47D1111121146D1900325670 /* Main.storyboard */,
@@ -97,6 +99,7 @@
 				47D11122211474A200325670 /* MenuController.swift */,
 				47D111242114750400325670 /* ALaCarteController.swift */,
 				47D111262114779500325670 /* MonTabBar.swift */,
+				47D1112B21147A9F00325670 /* MonNavigationController.swift */,
 			);
 			path = Controlleur;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				47D11123211474A200325670 /* MenuController.swift in Sources */,
 				47D1110E21146D1900325670 /* AppDelegate.swift in Sources */,
 				47D1112A211477F000325670 /* Constantes.swift in Sources */,
+				47D1112C21147A9F00325670 /* MonNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
