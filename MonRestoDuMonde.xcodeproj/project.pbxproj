@@ -26,6 +26,7 @@
 		47D1113A211498BB00325670 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D11139211498BB00325670 /* PlatCell.swift */; };
 		47D1113C21149BA700325670 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1113B21149BA700325670 /* ALaCarte.swift */; };
 		47D1113E2114A9BA00325670 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1113D2114A9BA00325670 /* DetailController.swift */; };
+		47D111402114AE6000325670 /* PlatVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1113F2114AE6000325670 /* PlatVue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		47D11139211498BB00325670 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
 		47D1113B21149BA700325670 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 		47D1113D2114A9BA00325670 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		47D1113F2114AE6000325670 /* PlatVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatVue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				47D1112D211482A000325670 /* MenuCell.swift */,
 				47D11137211493FA00325670 /* Degrade.swift */,
 				47D11139211498BB00325670 /* PlatCell.swift */,
+				47D1113F2114AE6000325670 /* PlatVue.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D1113A211498BB00325670 /* PlatCell.swift in Sources */,
+				47D111402114AE6000325670 /* PlatVue.swift in Sources */,
 				47D1113421148AA200325670 /* Menus.swift in Sources */,
 				47D1113621148B8300325670 /* LesPlats.swift in Sources */,
 				47D111272114779500325670 /* MonTabBar.swift in Sources */,
