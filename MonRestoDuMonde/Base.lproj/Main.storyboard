@@ -84,10 +84,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="nQF-Tk-3FX" firstAttribute="trailing" secondItem="x3h-8g-rik" secondAttribute="trailing" id="0vb-Kj-h26"/>
+                            <constraint firstItem="nQF-Tk-3FX" firstAttribute="leading" secondItem="x3h-8g-rik" secondAttribute="leading" id="7yI-nx-h5G"/>
                             <constraint firstItem="nQF-Tk-3FX" firstAttribute="top" secondItem="x3h-8g-rik" secondAttribute="top" id="P4v-v7-p7f"/>
+                            <constraint firstItem="nQF-Tk-3FX" firstAttribute="trailing" secondItem="x3h-8g-rik" secondAttribute="trailing" id="UaV-dn-lOC"/>
                             <constraint firstItem="nQF-Tk-3FX" firstAttribute="bottom" secondItem="x3h-8g-rik" secondAttribute="bottom" id="gBE-M4-q16"/>
-                            <constraint firstItem="nQF-Tk-3FX" firstAttribute="leading" secondItem="x3h-8g-rik" secondAttribute="leading" id="r1r-zM-N1x"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="x3h-8g-rik"/>
                     </view>
