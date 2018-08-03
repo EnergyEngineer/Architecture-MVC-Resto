@@ -23,6 +23,8 @@
 		47D1113421148AA200325670 /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1113321148AA200325670 /* Menus.swift */; };
 		47D1113621148B8300325670 /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1113521148B8300325670 /* LesPlats.swift */; };
 		47D11138211493FA00325670 /* Degrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D11137211493FA00325670 /* Degrade.swift */; };
+		47D1113A211498BB00325670 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D11139211498BB00325670 /* PlatCell.swift */; };
+		47D1113C21149BA700325670 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1113B21149BA700325670 /* ALaCarte.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		47D1113321148AA200325670 /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
 		47D1113521148B8300325670 /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 		47D11137211493FA00325670 /* Degrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degrade.swift; sourceTree = "<group>"; };
+		47D11139211498BB00325670 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
+		47D1113B21149BA700325670 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				47D11131211488EE00325670 /* Enums.swift */,
 				47D1113321148AA200325670 /* Menus.swift */,
 				47D1113521148B8300325670 /* LesPlats.swift */,
+				47D1113B21149BA700325670 /* ALaCarte.swift */,
 			);
 			name = "Modèle";
 			path = "Modèle";
@@ -107,6 +112,7 @@
 			children = (
 				47D1112D211482A000325670 /* MenuCell.swift */,
 				47D11137211493FA00325670 /* Degrade.swift */,
+				47D11139211498BB00325670 /* PlatCell.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D1113A211498BB00325670 /* PlatCell.swift in Sources */,
 				47D1113421148AA200325670 /* Menus.swift in Sources */,
 				47D1113621148B8300325670 /* LesPlats.swift in Sources */,
 				47D111272114779500325670 /* MonTabBar.swift in Sources */,
@@ -212,6 +219,7 @@
 				47D1110E21146D1900325670 /* AppDelegate.swift in Sources */,
 				47D1112A211477F000325670 /* Constantes.swift in Sources */,
 				47D11130211488AC00325670 /* Plats.swift in Sources */,
+				47D1113C21149BA700325670 /* ALaCarte.swift in Sources */,
 				47D1112E211482A000325670 /* MenuCell.swift in Sources */,
 				47D1112C21147A9F00325670 /* MonNavigationController.swift in Sources */,
 			);
